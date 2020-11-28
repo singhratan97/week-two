@@ -53,6 +53,6 @@ request.send();
 
 //Load the response
 request.onload = function (){
-    var byCityID = JSON.parse(this.response);
-    console.log(byCityID);
+    var geo = JSON.parse(this.response);
+    console.log(geo);
 }
