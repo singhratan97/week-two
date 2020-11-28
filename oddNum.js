@@ -1,3 +1,4 @@
+
 (function(arr){
   var newarr = arr.filter((item) => item%2!=0);
   console.log(newarr);
